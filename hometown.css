@@ -1,0 +1,100 @@
+body {
+
+    text-align: center;
+    background: linear-gradient(rgb(243, 206, 212), rgb(113, 222, 241));
+}
+
+h1 {
+    margin-top: 150px;
+    background-color: rgb(31, 99, 158);
+    padding: 20px 50px;
+    border-radius: 5px;
+
+}
+
+#p1 {
+    background-color: rgb(31, 99, 158);
+    padding: 20px 50px;
+    border-radius: 5px;
+    margin-bottom: 300px;
+}
+
+h2 {
+    text-shadow: 0px 0px 1px black;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.text {
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("hii.jpg");
+    background-size: cover;
+
+}
+
+.pics {
+    width: 150px;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+.next {
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 80px;
+    background: linear-gradient(rgb(243, 206, 212), rgb(113, 222, 241));
+
+}
+
+.sections {
+    text-align: center;
+    margin: 0 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#pritam-image {
+    width: 180px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+
+.card {
+    width: 600px;
+    height: 200px;
+    background-color: #A8DADC;
+    margin: 40px auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 80px;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10%;
+}
+
+
+
+.guide {
+    margin: 0 40px 0 50px;
+    font-size: 20px;
+}
+
+.card:hover {
+    background-color: #1ad6dd;
+    font-size: 30px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
